@@ -1,0 +1,31 @@
+#search{
+    width: 150px;
+    border-color:  #76d7c4 ;
+    border-radius: 12px;
+    color:#76d7c4;
+    background-color: #f8f9f9 ;
+    height: 30px;
+    font-weight: bold;
+
+
+}
+
+#plus{
+    background-color:#76d7c4 ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+   border:none;
+}
+
+#account{
+    background-color:  #2471a3  ;
+    color:white;
+    box-shadow: 5px 5px 2px 1px black;
+    width: 200px;
+    height: 35px;
+
+}
