@@ -1,0 +1,44 @@
+
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+.class-1{
+
+    background-color: cyan;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img{
+    height:200px;
+    width: 200px;
+    
+
+}
+.class-2{
+
+    background-color:antiquewhite;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.class-3{
+
+    background-color:white;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
