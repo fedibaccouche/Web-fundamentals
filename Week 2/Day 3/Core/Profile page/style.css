@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:  #2f3030 ;
+    padding: 10px;
+    height: 50px;
+
+}
+
+.home-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+}
+
+.my-profile{
+    font-weight: bold;
+}
+
+.bar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+button{
+    border-radius: 0%;
+    background-color:  #3ebce6 ;
+    font-weight: bold;
+    color: white;
+    padding: 0%;
+    width: 100px;
+    height:25px;
+    border: none;
+}
+
+main{
+    display:flex;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#education{
+    background-color: #2f3030;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+
+
+h2{
+
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#b{
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#c{
+    color:black;
+}
+
+
+.avatar{
+    background-color:#17a2b8;
+    height: 120px;
+}
+
+.avatar-image{
+    border-radius: 50%;
+    height: 70px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.location img{
+    height: 15px;
+}
+
+.edit-profile{
+    display: flex;
+    gap:10px;
+}
+.edit-profile img{
+    height:15px;
+}
+.edit-profile a{
+    text-decoration: underline;
+}
+
+.jane div,h1,p{
+    padding: 5px 20px;
+    margin:3px;
+ 
+
+}
+.education div,h2{
+    padding: 5px 20px;
+  
+
+}
+
+.profile{
+    width: 60%;
+
+}
+
+
+
+
+
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+
+.row {
+    display: flex;
+}
+
+
+
+
+
+
+
+.jane,.education,.card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.col, .profile {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
