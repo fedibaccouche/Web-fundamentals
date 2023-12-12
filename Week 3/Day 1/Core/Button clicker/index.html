@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <header class="header">
+        <h2>Dojonary</h2>
+        <input type="text" placeholder="Search">
+        <button class="log" id="log" onclick="change()">Login</button>
+
+
+    </header>
+
+    <div class="content">
+        <div class="col-1">
+            
+            <div class="card">
+                <div class="ninja">
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <div>noun</div>
+                        <div id="definition">Plural : ninjas</div>
+                    </div>
+                    <div class="definition">
+                        <p> A practitioner skilled in the</p>
+                        <p><span>Japanese</span> art of <span>ninjutsu</span></p>
+                    </div>
+                </div>
+
+                <div class="row-likes">
+                   <button class="likes" id="like" onclick="message()">13 likes</button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="ninja">
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <div>noun</div>
+                        <div id="definition">Plural : ninjas</div>
+                    </div>
+                    <div class="definition">
+                        <p> A <span>Programmer</span> who breaks</p>
+                        <p>down problems with <span>zen</span>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+
+                <div class="row-likes">
+                   <button class="likes" id="like-1" onclick="message()">37 likes</button>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+        <div class="col-2">
+
+            <div class="card-1">
+                <div>Dictionary is </div>
+                 <div> defined by <span id="you">  you</span></div> 
+                 <div class="ad">
+                    <div class="button-ad" onclick="remove_this(this)">Add definition</div>
+                </div>
+                 
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

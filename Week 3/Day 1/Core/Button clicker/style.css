@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 1080px;
+    height:50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.header input{
+    width: 400px;
+    height:25px;
+    border:solid 2px black;
+}
+
+.header h2,button{
+    
+    margin: 20px;
+    padding: 5px;
+}
+
+.log{
+    
+        height: 20px;
+        width: 50px;
+        background-color: blue;
+        color: #ffffff;
+        border: none;
+        box-shadow: 4px 4px #000000;
+    
+}
+
+.content{
+    width: 1080px;
+    margin:0 auto;
+    display: flex;
+}
+
+.col-1{
+    flex:3;
+}
+
+.col-2{
+    flex:1;
+    display: flex;
+}
+
+
+.card{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    margin:20px 20px 20px 0px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.ninja{
+    display: flex;
+    align-items: center;
+
+}
+
+.word{
+    flex:1;
+    padding:5px
+}
+.definition{
+    flex:3;
+}
+
+.row-likes{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.word div,h2{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+#definition{
+    font-size: smaller;
+}
+
+
+.definition{
+    height: 105px;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+
+.likes{
+    height: 30px;
+    width: 70px;
+    background-color: #f7d433 ;
+    color: black;
+    font-weight: bold;
+    border: none;
+    box-shadow: 4px 4px #000000;
+}
+
+span{
+    color: #3366CC ;
+    text-decoration: underline;
+}
+
+#you{
+    font-weight: bold;
+    color : black;
+    text-decoration: none;
+
+}
+
+.card-1{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 20px 0px 0px 10px;
+    font-size: 1.5rem;
+    padding: 10px 0px 0px 10px;
+    height: 150px;
+
+}
+
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-ad{
+    height: 30px;
+    width: 200px;
+    background-color: #259c2b ;
+    color: black;
+    font-size: medium;
+    margin:20px;
+    padding: 5px;
+    
+    border: none;
+    box-shadow: 4px 4px #000000;
+}
